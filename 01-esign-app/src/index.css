@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.input-boxes {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 35vh;
+}
