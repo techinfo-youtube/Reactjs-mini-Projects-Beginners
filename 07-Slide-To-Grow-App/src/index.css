@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.circle {
+  margin-top: 100px;
+  height: 30px;
+  width: 30px;
+  color: black;
+  background: rgb(0, 15, 28);
+  font-weight: 600;
+  gap: 100;
+  border-radius: 50%;
+}
